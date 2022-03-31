@@ -1,0 +1,13 @@
+{
+  "name": "itssimple-upnp",
+  "main": "index.html",
+  "version": "0.1.0",
+  "private": true,
+  "window": {
+    "id": "main",
+    "position": "center"
+  },
+  "dependencies": {
+    "nat-upnp": "^1.1.1"
+  }
+}

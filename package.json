@@ -1,0 +1,14 @@
+{
+  "name": "node-csharp-loader",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nw ./src",
+    "prod": "nwbuild --platforms win64,osx64,linux64 --flavor normal --buildDir dist/ src/"
+  },
+  "devDependencies": {
+    "nw": "^0.61.0-normal",
+    "nw-builder": "^3.5.7",
+    "nwjs-types": "^1.0.0"
+  }
+}
